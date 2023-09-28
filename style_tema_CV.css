@@ -1,0 +1,43 @@
+* {
+  align-self: center;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px;
+}
+
+h1 > span {
+  font-size: 1.5em !important;
+}
+
+.date-personale {
+  line-height: 0%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  color: #006699;
+}
+
+h2:hover {
+  font-size: 30px;
+}
+
+div.aptitudini {
+  display: grid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabel-aptitudini {
+  color: rgb(34, 148, 150);
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+}
+
+div.aptitudini > table:hover {
+  font-weight: bold;
+}
